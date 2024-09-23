@@ -1,0 +1,61 @@
+
+body {
+    background-color: #c9c7c7;
+    margin: 0;
+    padding: 0;
+}
+body > * {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+}
+@font-face {
+    font-family: 'ShutterIslandFont';
+    src: url('fonts/shutter_island.ttf'); 
+}
+
+@font-face {
+    font-family: 'FightClubFont';
+    src: url('fonts/fight_club.ttf'); 
+}
+
+@font-face {
+    font-family: 'PrestigeFont';
+    src: url('fonts/prestige.ttf'); 
+}
+#shutter-island p {
+    font-family: 'ShutterIslandFont', sans-serif;
+    text-align: center;
+}
+
+#fight-club p {
+    font-family: 'FightClubFont', sans-serif;
+    text-align: justify;
+}
+
+#the-prestige p {
+    font-family: 'PrestigeFont', sans-serif;
+    text-align: left;
+}
+ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+ul li a {
+    color: black;
+    text-decoration: none;
+}
+.gallery img {
+    width: 300px;
+    height: 180px;
+    border-radius: 20px; 
+    object-fit: cover; 
+}
+strong {
+    font-weight: bold; 
+}
+
+b {
+    font-weight: 700;
+}
